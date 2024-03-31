@@ -1,0 +1,83 @@
+
+.productItem{
+    width: 276px;
+    height: 500px;
+    padding-left: 10px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.card-title {
+    width: 163px;
+height: 72px;
+
+}
+
+.card-text {
+width: 61px;
+height: 26px;
+top: 462px;
+left: 12px;
+gap: 0px;
+opacity: 0px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+// .cartButton {
+//     width: 104px;
+//     height: 36px;
+//     top: 456px;
+//     left: 160px;
+//     padding: 7px 12px 7px 12px !important;
+//     gap: 0px;
+//     border-radius: 4px 0px 0px 0px !important;
+//     opacity: 0px;
+//     background-color: #ED7D2D !important;
+// }
+
+.cartButton {
+    background-color: #ED7D2D !important;
+    border: none !important;
+    margin-left: 4em !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.card {
+border: 1px solid #f8efef !important;
+}
+.add-to-cart-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInUp 0.5s ease-in-out forwards;
+  
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+    }
+  
+    p {
+      margin: 0;
+    }
+  }
+  
